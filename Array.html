@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Descubriendo el mayor</title>
+</head>
+
+<body>
+	<script>
+        const numeros = [35,72,85,86,900,1591,237,889,1590,15,1580];
+	let mayor = 0;//35
+    for(let i = 0; i <numeros.length; i++) {
+        if (numeros [i]> mayor){
+            mayor=numeros[i];
+        }
+    }
+    console.log(`El mayor de ${numeros} es ${mayor}`);
+	document.write(`El mayor de ${numeros} es ${mayor}`);
+	</script>
+</body>
+</html>
